@@ -1,12 +1,4 @@
-﻿/**
- * @author AtomicGamer <github.com/AtomicGamer9523>
- * @license MIT
- * @version 1.0.0
- * @module TruTrace
-*/
-
-
-interface ILogMessage {
+﻿interface ILogMessage {
     timestamp: number;
     message: string;
     level: string;
@@ -88,4 +80,3 @@ export declare function format(message: any, level: string, files: string[], tim
  * ```
  */
 export declare function trace(depth?: number): string[];
-export {};
