@@ -1,0 +1,24 @@
+{
+  "name": "@tokio-js/trutrace",
+  "version": "1.0.0",
+  "description": "Trace everything",
+  "author": "AtomicGamer9523",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokio-js/trutrace.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/tokio-js/trutrace/issues"
+  },
+  "homepage": "https://github.com/tokio-js/trutrace#readme",
+  "main": "./one-liner/lib.js",
+  "types": "./one-liner/lib.d.ts",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
