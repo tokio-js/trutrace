@@ -1,4 +1,4 @@
-const tru = require("../one-liner/lib");
+const tru = require("../src/lib");
 
 function tracer(msg){// Not traced
     const traces = tru.trace();

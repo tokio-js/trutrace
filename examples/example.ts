@@ -1,4 +1,4 @@
-import * as tru from "../one-liner/lib";
+import * as tru from "../src/lib";
 
 function tracer(msg: string){// Not traced
     const traces = tru.trace();
